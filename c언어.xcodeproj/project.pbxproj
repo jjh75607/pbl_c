@@ -6,10 +6,6 @@
 	objectVersion = 50;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		074B1B2B2473FD0E0020DC87 /* 10주과제1.c in Sources */ = {isa = PBXBuildFile; fileRef = 074B1B242473EEF40020DC87 /* 10주과제1.c */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		07A41BE1244EF5CD0007BBFD /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -50,7 +46,11 @@
 		0771214D245840CA00E1D18B /* 7주02.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "7주02.c"; sourceTree = "<group>"; };
 		0771214F24585A5300E1D18B /* 7주03.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "7주03.c"; sourceTree = "<group>"; };
 		07A41BE3244EF5CD0007BBFD /* c언어 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "c언어"; sourceTree = BUILT_PRODUCTS_DIR; };
-		07A41BE6244EF5CD0007BBFD /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		07C4359E247D18AC0043BE09 /* 11주01.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "11주01.c"; sourceTree = "<group>"; };
+		07C435A0247D1C160043BE09 /* 11주02.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "11주02.c"; sourceTree = "<group>"; };
+		07C435A2247D486E0043BE09 /* 11주과제01.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "11주과제01.c"; sourceTree = "<group>"; };
+		07C435A4247D48DF0043BE09 /* 11주과제02.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "11주과제02.c"; sourceTree = "<group>"; };
+		07C435A7247D58820043BE09 /* 11주과제02-1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "11주과제02-1.c"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +83,6 @@
 		07A41BE5244EF5CD0007BBFD /* c언어 */ = {
 			isa = PBXGroup;
 			children = (
-				07A41BE6244EF5CD0007BBFD /* main.c */,
 				072148F0244F0130006D98ED /* 조건02.c */,
 				072148F2244F023F006D98ED /* 조건01.c */,
 				072148F7244F1CAD006D98ED /* 6주과제1-1.c */,
@@ -110,6 +109,11 @@
 				074B1B242473EEF40020DC87 /* 10주과제1.c */,
 				074B1B262473F0820020DC87 /* 10주과제2-1.c */,
 				074B1B282473F7620020DC87 /* 10주차과제2-2.c */,
+				07C4359E247D18AC0043BE09 /* 11주01.c */,
+				07C435A0247D1C160043BE09 /* 11주02.c */,
+				07C435A2247D486E0043BE09 /* 11주과제01.c */,
+				07C435A4247D48DF0043BE09 /* 11주과제02.c */,
+				07C435A7247D58820043BE09 /* 11주과제02-1.c */,
 			);
 			path = "c언어";
 			sourceTree = "<group>";
@@ -171,7 +175,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				074B1B2B2473FD0E0020DC87 /* 10주과제1.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
