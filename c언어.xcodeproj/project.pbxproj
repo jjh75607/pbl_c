@@ -6,6 +6,10 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		07B4536A24868B2E008DBC6A /* 12주과제02.c in Sources */ = {isa = PBXBuildFile; fileRef = 07B4536924868B2E008DBC6A /* 12주과제02.c */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		07A41BE1244EF5CD0007BBFD /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -46,6 +50,8 @@
 		0771214D245840CA00E1D18B /* 7주02.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "7주02.c"; sourceTree = "<group>"; };
 		0771214F24585A5300E1D18B /* 7주03.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "7주03.c"; sourceTree = "<group>"; };
 		07A41BE3244EF5CD0007BBFD /* c언어 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "c언어"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07B45367248682A5008DBC6A /* 12주과제01.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "12주과제01.c"; sourceTree = "<group>"; };
+		07B4536924868B2E008DBC6A /* 12주과제02.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "12주과제02.c"; sourceTree = "<group>"; };
 		07C4359E247D18AC0043BE09 /* 11주01.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "11주01.c"; sourceTree = "<group>"; };
 		07C435A0247D1C160043BE09 /* 11주02.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "11주02.c"; sourceTree = "<group>"; };
 		07C435A2247D486E0043BE09 /* 11주과제01.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "11주과제01.c"; sourceTree = "<group>"; };
@@ -114,6 +120,8 @@
 				07C435A2247D486E0043BE09 /* 11주과제01.c */,
 				07C435A4247D48DF0043BE09 /* 11주과제02.c */,
 				07C435A7247D58820043BE09 /* 11주과제02-1.c */,
+				07B45367248682A5008DBC6A /* 12주과제01.c */,
+				07B4536924868B2E008DBC6A /* 12주과제02.c */,
 			);
 			path = "c언어";
 			sourceTree = "<group>";
@@ -175,6 +183,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07B4536A24868B2E008DBC6A /* 12주과제02.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

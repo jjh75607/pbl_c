@@ -25,7 +25,7 @@ int main() {
             break;
         }
         
-        if (n < min) {
+        if (n < min) {&
             min = n;
             minLocation = i + 1;
         }
@@ -40,7 +40,7 @@ int main() {
     avg = sum / i;
     
     printf("sum : %d, avg : %.2lf\n", sum, avg);
-    printf("max : %d, maxLocation : %d\n", max, maxLocation);
+    printf("max : %d, maxLocati6on : %d\n", max, maxLocation);
     printf("min : %d, minLocation : %d\n", min, minLocation);
     
     return 0;

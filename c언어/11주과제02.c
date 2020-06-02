@@ -18,6 +18,7 @@ int main() {
     int cnt = 0;
     double avg;
     
+    
     while (1) {
         scanf("%d", &n);
         
@@ -42,6 +43,7 @@ int main() {
     printf("sum : %d, avg : %.2lf\n", sum, avg);
     printf("max : %d, maxLocation : %d\n", max, maxLocation);
     printf("min : %d, minLocation : %d\n", min, minLocation);
+    
     
     return 0;
 }
