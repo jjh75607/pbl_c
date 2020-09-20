@@ -7,41 +7,73 @@
 //
 
 #include <stdio.h>
+#include <string.h>
 
 int main() {
-    char names[10][10] = {
-        {"java"}, {"c"}, {"c++"},
-        {"go"}, {"python"}, {"js"},
-        {"ruby"}, {"php"}, {"c#"}, {"b"}
+    char names[4][20] = {
+        {"kimjaehe"},
+        {"kimjaesoon"},
+        {"kimsoonjae"},
+        {"jungsoon"}
     };
-    char name[10];
-    int result = 0;
     
-    scanf("%s", name);
+    char searchName[10];
+
+    scanf("%s", searchName);
     
-    for (int i = 0; i < 10; i++) {
-        for(int j = 0; j < 20; j++) {
-            if(names[i][j] == '\0' && name[j] == '\0') {
-                result = 1;
-                printf("%s", name);
-                break;
-            }
-            
-            if(names[i][j] == name[j]) {
-                continue;
-            } else {
-                break;
-            }
+//    case 1
+//    for (int i = 0; i < 4; i++) {
+//        if (strstr(names[i], searchName)) {
+//            printf("%s\n", names[i]);
+//        } else {
+//            printf("X");
+//            break;
+//        }
+//    }
+    
+//    case 2
+    int W[4] = { 0 };
+    for (int i = 0, j = 1, status = 0; searchName[j] != '\0'; ++j)
+    {
+        if (searchName[i] == searchName[j])
+        {
+            i++;
+            W[j] = ++status;
         }
-        
-        if (result == 1) {
-            break;
+        else if (i > 0)
+        {
+            i = 0;
+            W[j] = status = 0;
         }
-        
     }
     
-    if(result == 0) {
-        printf("%s는 없습니다.\n", name);
+    
+    for (int i = 0; i < sizeof(names) / sizeof(names[0]); i++) {
+        for (int s = 0, f = 0; s < strlen(names[i]);)
+        {
+            while (names[i][s] == searchName[f] && f < strlen(searchName))
+            {
+                s++;
+                f++;
+            }
+
+            if (f > strlen(searchName) - 1)
+            {
+                for (int k = 0; k < strlen(names[i]); k++) {
+                    printf("%c", names[i][k]);
+                }
+                f = W[f - 1];
+            }
+            else
+            {
+                if (W[f] == 0)
+                    f = 0;
+                else if (W[f] > 0)
+                    f = W[f] - 1;
+                s++;
+            }
+        }
+        printf("\n");
     }
     
     return 0;
