@@ -21,15 +21,14 @@ int main() {
 
     scanf("%s", searchName);
     
-//    case 1
-//    for (int i = 0; i < 4; i++) {
-//        if (strstr(names[i], searchName)) {
-//            printf("%s\n", names[i]);
-//        } else {
-//            printf("X");
-//            break;
-//        }
-//    }
+    for (int i = 0; i < 4; i++) {
+        if (strstr(names[i], searchName)) {
+            printf("%s\n", names[i]);
+        } else {
+            printf("X");
+            break;
+        }
+    }
     
 //    case 2
     int W[4] = { 0 };
@@ -47,7 +46,7 @@ int main() {
         }
     }
     
-    
+    //
     for (int i = 0; i < sizeof(names) / sizeof(names[0]); i++) {
         for (int s = 0, f = 0; s < strlen(names[i]);)
         {

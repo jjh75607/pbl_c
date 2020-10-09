@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		07E882FA25144AD5004905B0 /* 06.c in Sources */ = {isa = PBXBuildFile; fileRef = 07E882F925144AD5004905B0 /* 06.c */; };
+		07D84070252FFF010059B5D5 /* 10.c in Sources */ = {isa = PBXBuildFile; fileRef = 07D8406F252FFF010059B5D5 /* 10.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -51,6 +51,8 @@
 		0771214D245840CA00E1D18B /* 7주02.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "7주02.c"; path = "../7주02.c"; sourceTree = "<group>"; };
 		0771214F24585A5300E1D18B /* 7주03.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "7주03.c"; path = "../7주03.c"; sourceTree = "<group>"; };
 		077719E024990A4200B23D6B /* 14주과제1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "14주과제1.c"; path = "../14주과제1.c"; sourceTree = "<group>"; };
+		0778E057251D85A0006AFB35 /* t.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = t.c; sourceTree = "<group>"; };
+		0778E05B251D86E0006AFB35 /* 07.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 07.c; sourceTree = "<group>"; };
 		077A1D8B24991C21008E47A6 /* 14주과제2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "14주과제2.c"; path = "../14주과제2.c"; sourceTree = "<group>"; };
 		077A1D8D24991F5D008E47A6 /* 14주과제3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "14주과제3.c"; path = "../14주과제3.c"; sourceTree = "<group>"; };
 		07A41BE3244EF5CD0007BBFD /* c언어 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "c언어"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,6 +64,9 @@
 		07C435A4247D48DF0043BE09 /* 11주과제02.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "11주과제02.c"; path = "../11주과제02.c"; sourceTree = "<group>"; };
 		07C435A7247D58820043BE09 /* 11주과제02-1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "11주과제02-1.c"; path = "../11주과제02-1.c"; sourceTree = "<group>"; };
 		07CDB04F250B08700056C52A /* 004.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 004.c; sourceTree = "<group>"; };
+		07D84067252FE3F10059B5D5 /* 08.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 08.c; sourceTree = "<group>"; };
+		07D8406B252FEE310059B5D5 /* 09.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 09.c; sourceTree = "<group>"; };
+		07D8406F252FFF010059B5D5 /* 10.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 10.c; sourceTree = "<group>"; };
 		07E286DA2501C3EC0048ED2C /* 001.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 001.c; sourceTree = "<group>"; };
 		07E286DC2501DBD50048ED2C /* 002.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 002.c; sourceTree = "<group>"; };
 		07E882F5251438E6004905B0 /* 003.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 003.c; sourceTree = "<group>"; };
@@ -145,6 +150,7 @@
 				077A1D8D24991F5D008E47A6 /* 14주과제3.c */,
 				072148F0244F0130006D98ED /* 조건02.c */,
 				072148F2244F023F006D98ED /* 조건01.c */,
+				0778E057251D85A0006AFB35 /* t.c */,
 			);
 			name = "1학기";
 			path = "1학기";
@@ -159,6 +165,10 @@
 				07CDB04F250B08700056C52A /* 004.c */,
 				07E882F725143917004905B0 /* 005.c */,
 				07E882F925144AD5004905B0 /* 06.c */,
+				0778E05B251D86E0006AFB35 /* 07.c */,
+				07D84067252FE3F10059B5D5 /* 08.c */,
+				07D8406B252FEE310059B5D5 /* 09.c */,
+				07D8406F252FFF010059B5D5 /* 10.c */,
 			);
 			name = "2학기";
 			path = "2학기";
@@ -221,7 +231,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07E882FA25144AD5004905B0 /* 06.c in Sources */,
+				07D84070252FFF010059B5D5 /* 10.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
