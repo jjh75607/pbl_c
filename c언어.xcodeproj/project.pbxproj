@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		07D84070252FFF010059B5D5 /* 10.c in Sources */ = {isa = PBXBuildFile; fileRef = 07D8406F252FFF010059B5D5 /* 10.c */; };
+		077F39632538A2B900234C52 /* a.c in Sources */ = {isa = PBXBuildFile; fileRef = 076DD0EA25374BC8002C4C75 /* a.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -47,6 +47,7 @@
 		074B1B242473EEF40020DC87 /* 10주과제1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "10주과제1.c"; path = "../10주과제1.c"; sourceTree = "<group>"; };
 		074B1B262473F0820020DC87 /* 10주과제2-1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "10주과제2-1.c"; path = "../10주과제2-1.c"; sourceTree = "<group>"; };
 		074B1B282473F7620020DC87 /* 10주차과제2-2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "10주차과제2-2.c"; path = "../10주차과제2-2.c"; sourceTree = "<group>"; };
+		076DD0EA25374BC8002C4C75 /* a.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = a.c; sourceTree = "<group>"; };
 		0771214B24583CE400E1D18B /* 7주01.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "7주01.c"; path = "../7주01.c"; sourceTree = "<group>"; };
 		0771214D245840CA00E1D18B /* 7주02.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "7주02.c"; path = "../7주02.c"; sourceTree = "<group>"; };
 		0771214F24585A5300E1D18B /* 7주03.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "7주03.c"; path = "../7주03.c"; sourceTree = "<group>"; };
@@ -169,6 +170,7 @@
 				07D84067252FE3F10059B5D5 /* 08.c */,
 				07D8406B252FEE310059B5D5 /* 09.c */,
 				07D8406F252FFF010059B5D5 /* 10.c */,
+				076DD0EA25374BC8002C4C75 /* a.c */,
 			);
 			name = "2학기";
 			path = "2학기";
@@ -231,7 +233,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07D84070252FFF010059B5D5 /* 10.c in Sources */,
+				077F39632538A2B900234C52 /* a.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
