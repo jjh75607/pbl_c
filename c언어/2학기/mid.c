@@ -123,7 +123,6 @@ void game() {
         if(life == 0) {
             break;
         } else {
-            //1 ~ ren까지만 랜덤한 숫자 생성
             n = (int)rand() % ren;
             
             //만약 temp[n]이 1이라면 한번도 나온적 없는 수이기에 다음 단계.
