@@ -9,13 +9,13 @@
 #include <stdio.h>
 
 int main() {
-    int a[] = {1, 2, 3};
-    int *p = a;
+    char c[4][10] = {"korea", "Japan",  "China", "Greece"};
+    char *a[] = {"korea", "Japan",  "China", "Greece"};
     
-    printf("%d\n", p[0]);
-    printf("%d\n", *(p + 1));
-    printf("%d\n", *(p + 4));
-    
+    printf("c[0] %s\n", c[0]);
+    printf("c[0] %c\n", c[0][3]);
+    printf("a[2] %s\n", a[2]);
+    printf("a[2][3] %c\n", a[2][3]);
     
     return 0;
 }
