@@ -50,7 +50,7 @@
 		074B1B282473F7620020DC87 /* 10주차과제2-2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "10주차과제2-2.c"; path = "../10주차과제2-2.c"; sourceTree = "<group>"; };
 		075A77E62548480800143C4C /* 11.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 11.c; sourceTree = "<group>"; };
 		075A77EA2549C9AF00143C4C /* 12.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 12.c; sourceTree = "<group>"; };
-		076DD0EA25374BC8002C4C75 /* a.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = a.c; sourceTree = "<group>"; };
+		076DD0EA25374BC8002C4C75 /* 2048R.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 2048R.c; sourceTree = "<group>"; };
 		0771214B24583CE400E1D18B /* 7주01.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "7주01.c"; path = "../7주01.c"; sourceTree = "<group>"; };
 		0771214D245840CA00E1D18B /* 7주02.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "7주02.c"; path = "../7주02.c"; sourceTree = "<group>"; };
 		0771214F24585A5300E1D18B /* 7주03.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "7주03.c"; path = "../7주03.c"; sourceTree = "<group>"; };
@@ -180,7 +180,7 @@
 				07D63493254BAE91003E04E2 /* midC.c */,
 				07D8406B252FEE310059B5D5 /* 09.c */,
 				07D8406F252FFF010059B5D5 /* 10.c */,
-				076DD0EA25374BC8002C4C75 /* a.c */,
+				076DD0EA25374BC8002C4C75 /* 2048R.c */,
 				079211F4253F289B004ED96F /* mid.c */,
 				075A77E62548480800143C4C /* 11.c */,
 				075A77EA2549C9AF00143C4C /* 12.c */,
